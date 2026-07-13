@@ -1,0 +1,12 @@
+@layer base {
+    .img-better {
+        @apply contrast-[1.1] brightness-95 select-none pointer-events-none;
+    }
+    .layout-container {
+        @apply w-[min(1650px,85%)] mx-auto;
+    }
+    .marquee-mask {
+        mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    }
+
+}
