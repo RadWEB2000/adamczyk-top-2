@@ -1,0 +1,9 @@
+@theme inline {
+    --color-primary-dark: #0A0E3A;  
+    --color-primary: #2F2FE4;
+    --color-secondary: #1565D6;
+    --color-accent: #00C2FF;
+    --color-accent-soft: #7FDBFF;
+    --color-surface: #EAF2FF;
+    --color-ink: #1A1A1A;
+}

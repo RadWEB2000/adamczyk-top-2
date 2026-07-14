@@ -1,65 +1,161 @@
-import Image from "next/image";
+import { Hero } from "@/views/home-view";
 
-export default function Home() {
-  return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+export default function HomePage(){
+  return(
+    <div>
+      <Hero/>
+      <ul>
+        <li>lorem001</li>
+        <li>lorem002</li>
+        <li>lorem003</li>
+        <li>lorem004</li>
+        <li>lorem005</li>
+        <li>lorem006</li>
+        <li>lorem007</li>
+        <li>lorem008</li>
+        <li>lorem009</li>
+        <li>lorem010</li>
+        <li>lorem011</li>
+        <li>lorem012</li>
+        <li>lorem013</li>
+        <li>lorem014</li>
+        <li>lorem015</li>
+        <li>lorem016</li>
+        <li>lorem017</li>
+        <li>lorem018</li>
+        <li>lorem019</li>
+        <li>lorem020</li>
+        <li>lorem021</li>
+        <li>lorem022</li>
+        <li>lorem023</li>
+        <li>lorem024</li>
+        <li>lorem025</li>
+        <li>lorem026</li>
+        <li>lorem027</li>
+        <li>lorem028</li>
+        <li>lorem029</li>
+        <li>lorem030</li>
+        <li>lorem031</li>
+        <li>lorem032</li>
+        <li>lorem033</li>
+        <li>lorem034</li>
+        <li>lorem035</li>
+        <li>lorem036</li>
+        <li>lorem037</li>
+        <li>lorem038</li>
+        <li>lorem039</li>
+        <li>lorem040</li>
+        <li>lorem041</li>
+        <li>lorem042</li>
+        <li>lorem043</li>
+        <li>lorem044</li>
+        <li>lorem045</li>
+        <li>lorem046</li>
+        <li>lorem047</li>
+        <li>lorem048</li>
+        <li>lorem049</li>
+        <li>lorem050</li>
+        <li>lorem051</li>
+        <li>lorem052</li>
+        <li>lorem053</li>
+        <li>lorem054</li>
+        <li>lorem055</li>
+        <li>lorem056</li>
+        <li>lorem057</li>
+        <li>lorem058</li>
+        <li>lorem059</li>
+        <li>lorem060</li>
+        <li>lorem061</li>
+        <li>lorem062</li>
+        <li>lorem063</li>
+        <li>lorem064</li>
+        <li>lorem065</li>
+        <li>lorem066</li>
+        <li>lorem067</li>
+        <li>lorem068</li>
+        <li>lorem069</li>
+        <li>lorem070</li>
+        <li>lorem071</li>
+        <li>lorem072</li>
+        <li>lorem073</li>
+        <li>lorem074</li>
+        <li>lorem075</li>
+        <li>lorem076</li>
+        <li>lorem077</li>
+        <li>lorem078</li>
+        <li>lorem079</li>
+        <li>lorem080</li>
+        <li>lorem081</li>
+        <li>lorem082</li>
+        <li>lorem083</li>
+        <li>lorem084</li>
+        <li>lorem085</li>
+        <li>lorem086</li>
+        <li>lorem087</li>
+        <li>lorem088</li>
+        <li>lorem089</li>
+        <li>lorem090</li>
+        <li>lorem091</li>
+        <li>lorem092</li>
+        <li>lorem093</li>
+        <li>lorem094</li>
+        <li>lorem095</li>
+        <li>lorem096</li>
+        <li>lorem097</li>
+        <li>lorem098</li>
+        <li>lorem099</li>
+        <li>lorem100</li>
+        <li>lorem101</li>
+        <li>lorem102</li>
+        <li>lorem103</li>
+        <li>lorem104</li>
+        <li>lorem105</li>
+        <li>lorem106</li>
+        <li>lorem107</li>
+        <li>lorem108</li>
+        <li>lorem109</li>
+        <li>lorem110</li>
+        <li>lorem111</li>
+        <li>lorem112</li>
+        <li>lorem113</li>
+        <li>lorem114</li>
+        <li>lorem115</li>
+        <li>lorem116</li>
+        <li>lorem117</li>
+        <li>lorem118</li>
+        <li>lorem119</li>
+        <li>lorem120</li>
+        <li>lorem121</li>
+        <li>lorem122</li>
+        <li>lorem123</li>
+        <li>lorem124</li>
+        <li>lorem125</li>
+        <li>lorem126</li>
+        <li>lorem127</li>
+        <li>lorem128</li>
+        <li>lorem129</li>
+        <li>lorem130</li>
+        <li>lorem131</li>
+        <li>lorem132</li>
+        <li>lorem133</li>
+        <li>lorem134</li>
+        <li>lorem135</li>
+        <li>lorem136</li>
+        <li>lorem137</li>
+        <li>lorem138</li>
+        <li>lorem139</li>
+        <li>lorem140</li>
+        <li>lorem141</li>
+        <li>lorem142</li>
+        <li>lorem143</li>
+        <li>lorem144</li>
+        <li>lorem145</li>
+        <li>lorem146</li>
+        <li>lorem147</li>
+        <li>lorem148</li>
+        <li>lorem149</li>
+        <li>lorem150</li>
+      </ul>
     </div>
-  );
+  )
 }

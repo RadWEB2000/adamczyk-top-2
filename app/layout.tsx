@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { fontBody, fontData, fontHeading } from "@/assets/fonts";
-import "@/css/globals.css";
+import "@/css/global.css";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,7 +17,7 @@ export default function RootLayout({
       lang="pl-PL"
       className={`${fontBody.variable} ${fontData.variable} ${fontHeading.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col bg-primary-dark">{children}</body>
     </html>
   );
 }
