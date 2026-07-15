@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { fontBody, fontData, fontHeading } from "@/assets/fonts";
+import { fontSans, fontData, fontSerif } from "@/assets/fonts";
 import "@/css/global.css";
 
 export const metadata: Metadata = {
@@ -15,9 +15,9 @@ export default function RootLayout({
   return (
     <html
       lang="pl-PL"
-      className={`${fontBody.variable} ${fontData.variable} ${fontHeading.variable} h-full antialiased`}
+      className={`${fontSans.variable} ${fontData.variable} ${fontSerif.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-primary-dark">{children}</body>
+      <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
 }

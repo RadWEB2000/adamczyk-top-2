@@ -6,7 +6,6 @@ const nextConfig: NextConfig = {
     cssChunking:true,
     inlineCss: true,
   },
-  cacheComponents: true,
   trailingSlash: false,
   
 };

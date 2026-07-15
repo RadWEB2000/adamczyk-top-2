@@ -1,9 +1,21 @@
 @theme inline {
-    --color-primary-dark: #0A0E3A;  
+    /* --color-primary-dark: #0A0E3A;  
     --color-primary: #2F2FE4;
     --color-secondary: #1565D6;
     --color-accent: #00C2FF;
     --color-accent-soft: #7FDBFF;
     --color-surface: #EAF2FF;
-    --color-ink: #1A1A1A;
+    --color-ink: #1A1A1A; */
+
+    /* THEME https://laundyloftnyc.com */
+    --color-brand-abyss:#101e33;
+    --color-brand-deep:#113575;
+    --color-brand-dark:#143f99;
+    --color-brand-accent:#370aff;
+    --color-brand:#1848f4;
+    --color-brand-light:#4d96ff;
+    --color-brand-lightest:#eef7ff;
+    --color-brand-glare:#f3f7ff;
+    --color-accent-primary:#ff594a;
+    --color-accent-secondary:#f4e9e1;
 }

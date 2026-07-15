@@ -1,8 +1,9 @@
-import {Inter_Tight, Geist_Mono, Space_Grotesk} from "next/font/google";
+import {Geologica, Geist_Mono, PT_Serif, Inter_Tight} from "next/font/google";
 
-const  fontBody = Inter_Tight({
+const  fontSerif = PT_Serif({
     subsets:['latin-ext'],
-    variable:'--font-body'
+    weight:['400','700'],
+    variable:'--font-serif'
 })
 
 const fontData = Geist_Mono({
@@ -10,9 +11,9 @@ const fontData = Geist_Mono({
     variable:'--font-data'
 })
 
-const fontHeading = Space_Grotesk({
+const fontSans = Inter_Tight({
     subsets:['latin-ext'],
-    variable:'--font-heading'
+    variable:'--font-sans'
 })
 
-export {fontBody, fontData, fontHeading}
+export {fontSerif, fontData, fontSans}

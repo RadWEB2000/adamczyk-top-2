@@ -1,5 +1,5 @@
 @theme {
-  --font-heading: var(--font-heading), sans-serif;
-  --font-body: var(--font-body), sans-serif;
-  --font-data: var(--font-data), monospace;
+  --font-sans: var(--font-sans), sans-serif;
+  --font-serif: var(--font-serif), sans-serif;
+  --font-mono: var(--font-data), monospace;
 }
