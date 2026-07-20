@@ -30,12 +30,12 @@
     }
     
     body {
-        font-family: var(--font-serif);
+        font-family: var(--font-sans);
         font-weight: 400;
     }
     
 }
 
 body {
-    background-color: color-mix(in srgb, var(--color-accent-secondary) 30%, var(--color-brand-glare));
+    background-color: color-mix(in srgb, var(--color-accent-100) 30%, var(--color-brand-100));
 }

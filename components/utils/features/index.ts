@@ -1,0 +1,1 @@
+export {default as SwapingWords} from "@/features/SwapingWords"
